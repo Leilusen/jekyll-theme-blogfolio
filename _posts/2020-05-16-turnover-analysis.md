@@ -1,9 +1,10 @@
-![Yearly turnover rates](/assets/HR_main.jpg)
+
 ---
 layout: post
 title: "HR data analysis: turnover"
 date: 2020-05-16 05:00:00 +0200
 ---
+![Yearly turnover rates](/assets/HR_main.jpg)
 
 *In this blog-post I will be looking at one of the most important HR metrics in any company - employee turnover. According to The Society for Human Resource Management (SHRM) research, direct replacement costs can reach as high as 50%-60% of an employee’s annual salary.*
 
