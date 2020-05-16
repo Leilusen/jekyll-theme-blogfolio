@@ -32,6 +32,31 @@ Around 71% of all people who left the company and listed "Unhappy" as their reas
 50% of all involuntarily terminated employees (dismissed due to either non-adherence to company policies or performance issues).
 As we can see on the two righmost plots, these six managers (out of 21 managers in total) had 54% of all ever terminated people as their subordinates and jointly managed around 37% of all people ever employed in the company. For some of the managers the share of terminations is somewhat consistent with the share of totally managed people, whereas for others these values vary significantly.
 
-Next, let's look into termination reasons at the department level.
+Next, let's look into termination reasons at the department level (figure below).It is interesting to note, that higher remuneration has been the incentive for termination only for employees of Production department. Also, only Production staff indicated "Unhappy" as their main reason for leaving the company.
 
 ![Termination reasons](/assets/Term_reasons_department.PNG)
+
+<h2>Logistic regression</h2>
+
+In order to identify factors that correlate with termination, we used simple logistic regression.
+
+Since our data has many explanatory variables, we applied "general-to-specific" approach, namely, we included as many variables as possible in the first iteration of the modeling and excluded variables with the lowest z-score at every subsequent iteration. Our final model includes only those variables whose Z-scores exceed threshold of 1.96 which is a critical value for statistical significance when using 95% confidence level. The p-value of the likelihood ratio chi-square for our model is 3.4107e-55 which tells us that the model fits the data significantly better than a hypothetical "empty" model that includes only intercept.
+
+![Linear regression](/assets/LR_model.PNG)
+
+The easiest way to interpret obtained coefficient estimators is to express them in terms of odd-ratios. By exponentiating coefficient estimators we yield following results:
+
+1. The odds of termination are 7 times higher in case an employee was hired through a diversity job fair. This result is quite interesting. The data might indicate that company's inclusion initiatives do not work as effectively in the long run.
+2. For a one unit increase in the number of special project that an employee performed, the odds of them leaving the company decrease by 68% (1 / 0.594).
+3. With each additional year that an employee stays with the company, the odds of them leaving decreases by more than 5 times (1 / 0.196).
+4. In order to interpret coefficient estimators of the combination of the termination age variable and its logarithmic transformation, we will consider the odds-ratio formula:
+
+    $\frac{{Pr}\left[Termd_i = 1\right]}{{Pr}\left[Termd_i = 0\right]}=exp(51.36)\times7.024^{JobFair_i}\times0.594^{SpecProj_i}\times0.196^{YersWork_i}\times{exp}(-16.588\ln(AgeTerm_i)+0.393AgeTerm_i)$
+    
+    To find the age for which we have the highest value of the termination odds ratio, we need to take a first order derivative of the odds-ratio with respect to the AgeWhenTerminated varaible and equate it to zero:
+    
+    $\frac{\partial{Pr}\left[Termd_i = 1\right]}{\partial\beta_{AgeTerm}} =\left[exp(51.36)\times7.024^{JobFair_i}\times0.594^{SpecProj_i}\times0.196^{YersWork_i}\times{exp}(-16.588ln(AgeTerm_i)+0.393AgeTerm_i)\right]\times(-\frac{16.588}{AgeTerm_i}+0.393)=0$
+    
+    Solving this equation we find the answer to be 42.2 years.
+![Linear regression model](/assets/LR_model.PNG)
+
