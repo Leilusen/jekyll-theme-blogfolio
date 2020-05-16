@@ -13,6 +13,6 @@ I used dataset prepared by New England College of Business of graduate MSHRM cou
 
 <h2>Turnover rates and main reasons for resignation</h2>
 
-According to Linkedin, technology sector's average turnover rate in 2017 was approximately 13.2%. I will use a more conservative threshold of 15% for my analysis. Looking at a yearly turnover rates department-wise (figure below), we see that Production, Admin Offices and IT/IS departments had turnovers above 15% at some points. However, if we look at these departments' contribution into yearly turnover rates, it seems that only Production looks troublesome. Overall yearly turnover does not exceed our threshold of 15% during last four years.
+According to Linkedin, technology sector's average turnover rate in 2017 was approximately 13.2%. I will use a more conservative threshold of 15% for my analysis. Looking at a yearly turnover rates department-wise (figure below), we see that Production, Admin Offices and IT/IS departments had turnovers above 15% at some points. However, if we look at these departments' contribution into yearly turnover rates, it seems that only Production is troublesome. Overall yearly turnover does not exceed our threshold of 15% during last four years.
 
 ![Yearly turnover rates](/assets/Yearly_turnover.PNG)
