@@ -17,8 +17,10 @@ According to Linkedin, technology sector's average turnover rate in 2017 was app
 
 ![Yearly turnover rates](/assets/Yearly_turnover.PNG)
 
-Next, let's look into different departments' turnover rates broken down by managers. At the figure below we can see graphs of the yearly turnover rates for those managers whose turnover values were above the respecitve department levels for three and more years. We see that only six of Software Engineering and Production departments' managers fall under this category. 
+Next, let's look into different departments' turnover rates broken down by managers. At the figure below we can see graphs for those managers whose turnover values were above the respecitve department levels for three and more years. We see that only six of Software Engineering and Production departments' managers fall under this category. 
 
 ![Yearly turnover rates of managers](/assets/Yearly_turnover_manager.PNG)
 
-We could dig deeper and identify main termination reasons given by their ex-subordinates.
+Let's dig deeper and identify main termination reasons given by their ex-subordinates.
+
+![Yearly turnover rates of managers reasons](/assets/High_rates_managers_reasons.PNG)
