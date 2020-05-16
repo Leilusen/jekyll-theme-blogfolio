@@ -24,3 +24,14 @@ Next, let's look into different departments' turnover rates broken down by manag
 Let's dig deeper and identify main termination reasons given by their ex-subordinates.
 
 ![Yearly turnover rates of managers reasons](/assets/High_rates_managers_reasons.PNG)
+
+The left part of the plot above depicts breakdown of number of employees who had worked under subject managers' command and terminated for different reasons as shares of total number of staff members terminated for corresponding reasons. Some of the particularly notable numbers include:
+
+Around 71% of all people who left the company and listed "Unhappy" as their reasons for termination.
+44% of all overworked employees.
+50% of all involuntarily terminated employees (dismissed due to either non-adherence to company policies or performance issues).
+As we can see on the two righmost plots, these six managers (out of 21 managers in total) had 54% of all ever terminated people as their subordinates and jointly managed around 37% of all people ever employed in the company. For some of the managers the share of terminations is somewhat consistent with the share of totally managed people, whereas for others these values vary significantly.
+
+Next, let's look into termination reasons at the department level.
+
+![Termination reasons](/assets/Term_reasons_department.PNG)
