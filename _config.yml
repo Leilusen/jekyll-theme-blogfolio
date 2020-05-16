@@ -1,16 +1,16 @@
 # Site settings
-name: name
-email: email
+name: Leila Turgarayeva
+email: l.turgarayeva@gmail.com
 url: url
 description: "A blog and a portfolio"
 author: "author"
 title: "BlogFolio"
 permalink: pretty
-baseurl: /jekyll-theme-blogfolio
+baseurl: /leilusen
 
 # social
 github:
-  username: username
+  username: Leilusen
 
 twitter:
   username: username
