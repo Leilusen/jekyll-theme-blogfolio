@@ -1,3 +1,4 @@
+![Yearly turnover rates](/assets/HR_main.jpg)
 ---
 layout: post
 title: "HR data analysis: turnover"
