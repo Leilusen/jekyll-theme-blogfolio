@@ -27,9 +27,10 @@ Let's dig deeper and identify main termination reasons given by their ex-subordi
 
 The left part of the plot above depicts breakdown of number of employees who had worked under subject managers' command and terminated for different reasons as shares of total number of staff members terminated for corresponding reasons. Some of the particularly notable numbers include:
 
-Around 71% of all people who left the company and listed "Unhappy" as their reasons for termination.
-44% of all overworked employees.
-50% of all involuntarily terminated employees (dismissed due to either non-adherence to company policies or performance issues).
+- Around 71% of all people who left the company and listed "Unhappy" as their reasons for termination.
+- 44% of all overworked employees.
+- 50% of all involuntarily terminated employees (dismissed due to either non-adherence to company policies or performance issues).
+
 As we can see on the two righmost plots, these six managers (out of 21 managers in total) had 54% of all ever terminated people as their subordinates and jointly managed around 37% of all people ever employed in the company. For some of the managers the share of terminations is somewhat consistent with the share of totally managed people, whereas for others these values vary significantly.
 
 Next, let's look into termination reasons at the department level (figure below).It is interesting to note, that higher remuneration has been the incentive for termination only for employees of Production department. Also, only Production staff indicated "Unhappy" as their main reason for leaving the company.
@@ -57,6 +58,5 @@ The easiest way to interpret obtained coefficient estimators is to express them 
     
     $\frac{\partial{Pr}\left[Termd_i = 1\right]}{\partial\beta_{AgeTerm}} =\left[exp(51.36)\times7.024^{JobFair_i}\times0.594^{SpecProj_i}\times0.196^{YersWork_i}\times{exp}(-16.588ln(AgeTerm_i)+0.393AgeTerm_i)\right]\times(-\frac{16.588}{AgeTerm_i}+0.393)=0$
     
-    Solving this equation we find the answer to be 42.2 years.
-![Linear regression model](/assets/LR_model.PNG)
+    Solving this equation we find the answer to be 42.2 years. This is the age for which the odds of termination are the highest.
 
