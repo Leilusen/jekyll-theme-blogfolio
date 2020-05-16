@@ -61,4 +61,4 @@ In this post I made an attempt at analyzing turnover of an IT company and identi
 - Remuneration rates in the Production department might not be consistent with market levels.
 - Employees brought in through company's diversity efforts seem to leave the company several times more often than those who were hired through other channels.
 
-P.S. Here is a link to the corresponding Github project: [https://github.com/Leilusen/HR_data_analysis]
+P.S. Here is a link to the corresponding Github project: https://github.com/Leilusen/HR_data_analysis
