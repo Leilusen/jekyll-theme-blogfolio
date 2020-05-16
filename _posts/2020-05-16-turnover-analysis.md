@@ -9,13 +9,10 @@ date: 2020-05-16 05:00:00 +0200
 
 	We used dataset prepared by New England College of Business of graduate MSHRM courses called HR Metrics and Analytics. It simulates an IT company and covers period from 2006 to 2017. Information includes data on all employees, their job statuses, pay rates, marital statuses and other data usually avaialable for HR analytics. Using available information I will try to find answers to the following questions:
 
-	1. What are the overall and department-wise turnover rates in the company? What managers have the highest turnover rates? What are the main reasons for resignation?
-	2. Could simple regression model be used to identify correlation between different factors and probability of resignation?
+1. What are the overall and department-wise turnover rates in the company? What managers have the highest turnover rates? What are the main reasons for resignation?
+2. Could simple regression model be used to identify correlation between different factors and probability of resignation?
 
 </p>
-
-</p>
-<!--more-->
 
 <h2>What's the big deal about Quarkus?</h2>
 
