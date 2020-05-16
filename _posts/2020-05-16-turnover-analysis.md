@@ -50,13 +50,14 @@ The easiest way to interpret obtained coefficient estimators is to express them 
 1. The odds of termination are 7 times higher in case an employee was hired through a diversity job fair. This result is quite interesting. The data might indicate that company's inclusion initiatives do not work as effectively in the long run.
 2. For a one unit increase in the number of special project that an employee performed, the odds of them leaving the company decrease by 68% (1 / 0.594).
 3. With each additional year that an employee stays with the company, the odds of them leaving decreases by more than 5 times (1 / 0.196).
-4. In order to interpret coefficient estimators of the combination of the termination age variable and its logarithmic transformation, we will consider the odds-ratio formula:
+4. In order to interpret coefficient estimators of the combination of the termination age variable and its logarithmic transformation,  we need to take a first order derivative of the odds-ratio with respect to the AgeWhenTerminated variable and equate it to zero. I found the answer to be 42.2 years. This is the age for which the odds of termination are the highest.
 
-    $\frac{{Pr}\left[Termd_i = 1\right]}{{Pr}\left[Termd_i = 0\right]}=exp(51.36)\times7.024^{JobFair_i}\times0.594^{SpecProj_i}\times0.196^{YersWork_i}\times{exp}(-16.588\ln(AgeTerm_i)+0.393AgeTerm_i)$
-    
-    To find the age for which we have the highest value of the termination odds ratio, we need to take a first order derivative of the odds-ratio with respect to the AgeWhenTerminated varaible and equate it to zero:
-    
-    $\frac{\partial{Pr}\left[Termd_i = 1\right]}{\partial\beta_{AgeTerm}} =\left[exp(51.36)\times7.024^{JobFair_i}\times0.594^{SpecProj_i}\times0.196^{YersWork_i}\times{exp}(-16.588ln(AgeTerm_i)+0.393AgeTerm_i)\right]\times(-\frac{16.588}{AgeTerm_i}+0.393)=0$
-    
-    Solving this equation we find the answer to be 42.2 years. This is the age for which the odds of termination are the highest.
+<h2>Conclusion</h2>
 
+In this post we made an attempt at analyzing turnover of an IT company and identify some factors that might affect termination rates. The subject of turnover, of course, could be analyzed from many other aspects that were not covered here. Some of the more interesting observations identified in the course of the analisys are the following:
+
+Some of the managers have consistently high turnover rates while a great deal of their subordinates had left the company for reasons other than changes in their personal circumstances or career transitions.
+Remuneration rates in the Production department might not be consistent with market levels.
+Employees brought in through company's diversity efforts seem to leave the company several times more often than those who were hired through other channels.
+
+P.S. Here is a link to the corresponding Github project: 
