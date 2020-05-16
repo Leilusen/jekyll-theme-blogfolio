@@ -56,8 +56,8 @@ The easiest way to interpret obtained coefficient estimators is to express them 
 
 In this post we made an attempt at analyzing turnover of an IT company and identify some factors that might affect termination rates. The subject of turnover, of course, could be analyzed from many other aspects that were not covered here. Some of the more interesting observations identified in the course of the analisys are the following:
 
-Some of the managers have consistently high turnover rates while a great deal of their subordinates had left the company for reasons other than changes in their personal circumstances or career transitions.
-Remuneration rates in the Production department might not be consistent with market levels.
-Employees brought in through company's diversity efforts seem to leave the company several times more often than those who were hired through other channels.
+- Some of the managers have consistently high turnover rates while a great deal of their subordinates had left the company for reasons other than changes in their personal circumstances or career transitions.
+- Remuneration rates in the Production department might not be consistent with market levels.
+- Employees brought in through company's diversity efforts seem to leave the company several times more often than those who were hired through other channels.
 
 P.S. Here is a link to the corresponding Github project: 
