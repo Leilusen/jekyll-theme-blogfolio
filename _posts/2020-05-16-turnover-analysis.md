@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Analysis of a yearly turnover"
+title: "HR data analysis: turnover"
 date: 2020-05-16 05:00:00 +0200
 ---
 
