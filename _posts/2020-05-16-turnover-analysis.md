@@ -1,38 +1,7 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Leilusen 
-alainpham
-/
-alainpham.github.io
-1
-16102
- Code
- Issues 0
- Pull requests 2 Actions
- Projects 0
- Wiki
- Security 0
- Insights
-alainpham.github.io/_posts/2019-03-15-quarkus-camel-first-impressions-on-a-game-changing-framework.html
- Alain Pham wrong unit calculations on quarkus articel
-6f97eed on Sep 18, 2019
-419 lines (353 sloc)  16.7 KB
-  
 ---
-layout: default
-title: "Quarkus Camel, First Impressions on a Game Changing Framework"
-date: 2019-09-17 05:00:00 +0200
-published: 2019-03-15 05:00:00 +0200
-comments: true
-categories: development
-tags: [quarkus, kubernetes, camel]
-github: "https://github.com/alainpham/quarkus-camel-first-impressions"
+layout: post
+title: "Analysis of a yearly turnover"
+date: 2020-05-16 05:00:00 +0200
 ---
 
 <p>
