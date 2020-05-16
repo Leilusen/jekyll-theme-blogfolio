@@ -5,15 +5,15 @@ date: 2020-05-16 05:00:00 +0200
 ---
 
 <p>
-    On March 07, 2019 Red Hat & the JBoss Community announced Quarkus. It is a Java framework that enables ultra low
-    boot
-    times and tiny
-    memory footprint for applications and services. It does that by taking advantage of GraalVM's native compilation
-    capabilities to produce an executable out of your Java code. Why is this considered to be a game
-    changer ?
-    In this article I will give my view and first impressions on this framework as someone who spends
-    a bit of time writing applications and services. I will get my hands dirty by building a
-    working Quarkus + Apache Camel example.
+	In this blog-post we will be looking at one of the most important HR metrics in any company - employee turnover. According to The Society for Human Resource Management (SHRM) research, direct replacement costs can reach as high as 50%-60% of an employee’s annual salary.
+
+	We used dataset prepared by New England College of Business of graduate MSHRM courses called HR Metrics and Analytics. It simulates an IT company and covers period from 2006 to 2017. Information includes data on all employees, their job statuses, pay rates, marital statuses and other data usually avaialable for HR analytics. Using available information I will try to find answers to the following questions:
+
+	1. What are the overall and department-wise turnover rates in the company? What managers have the highest turnover rates? What are the main reasons for resignation?
+	2. Could simple regression model be used to identify correlation between different factors and probability of resignation?
+
+</p>
+
 </p>
 <!--more-->
 
