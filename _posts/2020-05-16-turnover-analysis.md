@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "HR data analysis: turnover"
