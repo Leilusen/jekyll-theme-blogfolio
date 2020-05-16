@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: default1
 title: "HR data analysis: turnover"
+main_image = /assets/LR_model.PNG
 date: 2020-05-16 05:00:00 +0200
 ---
 
