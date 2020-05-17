@@ -7,6 +7,7 @@ author: "author"
 title: "Blog of aspiring Data Scientist"
 permalink: pretty
 baseurl: 
+excerpt_separator: <!--more-->
 
 # social
 github:
