@@ -7,7 +7,7 @@ date: 2020-05-16 05:00:00 +0200
 ![Yearly turnover rates](/assets/HR_main.jpg)
 
 *In this blog-post I will be looking at one of the most important HR metrics in any company - employee turnover. According to The Society for Human Resource Management (SHRM) research, direct replacement costs can reach as high as 50%-60% of an employee’s annual salary.*
-
+<!--more-->
 I used dataset prepared by New England College of Business of graduate MSHRM courses called HR Metrics and Analytics. It simulates an IT company and covers period from 2006 to 2017. Information includes data on all employees, their job statuses, pay rates, marital statuses and other data usually avaialable for HR analytics. Using available information I will try to find answers to the following questions:
 
 1. What are the overall and department-wise turnover rates in the company? What managers have the highest turnover rates? What are the main reasons for resignation?
